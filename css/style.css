@@ -1,0 +1,303 @@
+:root {
+  /* Color */
+  --bluesoft: #f9fbfc;
+  --blue: #3a38ff;
+  --purplesoft: #e5e4ff;
+  --navy: #101041;
+  --darkgrey: #949293;
+  --darkgrey2: #e7ebed;
+  --grey: #dfe2e7;
+  --purple: #6261d8;
+  --green: #316762;
+  --white: #ffffff;
+
+  /* Font Size */
+  --fwextrabold: 800;
+  --fwbold: 700;
+  --fwsemibold: 600;
+  --fwmedium: 500;
+  --fwregular: 400;
+  --fwlight: 300;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: var(--bluesoft);
+}
+
+/* Navbar Section */
+.btn-primary {
+  padding: 12px 20px;
+  background: var(--blue);
+  color: var(--white);
+  font-size: 16px;
+  font-weight: var(--fwsemibold);
+  border-radius: 50px;
+  border: 0;
+  transition: color 0.3s ease, background 0.3s ease;
+}
+
+.btn-primary:hover {
+  background: var(--navy);
+  color: var(--white);
+}
+
+.btn-secondary {
+  padding: 12px 20px;
+  background: var(--grey);
+  color: var(--navy);
+  font-size: 16px;
+  font-weight: var(--fwmedium);
+  border-radius: 50px;
+  border: 0;
+  transition: color 0.3s ease, background 0.3s ease;
+}
+
+.btn-secondary:hover {
+  background: var(--navy);
+  color: var(--white);
+}
+
+.navbar-nav .nav-link {
+  color: var(--navy);
+  font-weight: var(--fwregular);
+  transition: all 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  color: var(--blue);
+  font-weight: var(--fwsemibold);
+}
+
+.navbar-nav .nav-item {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.navbar-brand {
+  font-weight: var(--fwbold);
+  font-size: 28px;
+  color: var(--navy);
+}
+
+.custom-navbar {
+  padding: 30px;
+  background: var(--white);
+  border-radius: 0 0 26px 26px;
+}
+
+.navbar {
+  --bs-navbar-padding-y: 0;
+}
+
+/* Header Section */
+
+.badge {
+  padding: 8px 16px;
+  background: var(--purplesoft);
+  border-radius: 50px;
+}
+
+.icon {
+  margin-right: 6px;
+}
+
+.small-copy {
+  color: var(--navy);
+  font-weight: var(--fwbold);
+  font-size: 14px;
+  margin: 0;
+}
+
+.big-header {
+  font-weight: var(--fwextrabold);
+  color: var(--navy);
+  font-size: 48px;
+  line-height: 123%;
+}
+
+.primary-copy {
+  font-size: 16px;
+  font-weight: var(--fwregular);
+  line-height: 28px;
+  color: var(--darkgrey);
+}
+
+.buttons-header {
+  gap: 10px;
+}
+
+/* Companies Section */
+.medium-header {
+  font-weight: var(--fwbold);
+  color: var(--navy);
+  font-size: 28px;
+}
+
+.carousel {
+  height: 110px;
+  overflow: hidden;
+  gap: 30px;
+}
+
+.carousel--wrapper {
+  gap: 30px;
+  height: 110px;
+  animation: moveLeft 25s linear infinite;
+}
+
+.card-brands {
+  background: var(--darkgrey2);
+  width: 227px;
+  height: 110px;
+  border-radius: 16px;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.card-brands img {
+  height: 50px;
+}
+
+@keyframes moveLeft {
+  from {
+    transform: translateX(100%);
+  }
+
+  to {
+    transform: translateX(0%);
+  }
+}
+
+.carousel--wrapper-right {
+  gap: 30px;
+  height: 110px;
+  animation: moveRight 25s linear infinite;
+}
+
+@keyframes moveRight {
+  from {
+    transform: translateX(0%);
+  }
+
+  to {
+    transform: translateX(100%);
+  }
+}
+
+/* Utitlity Margin */
+.mb-10 {
+  margin-bottom: 10px;
+}
+
+.mr-10 {
+  margin-right: 10px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+.mb-50 {
+  margin-bottom: 50px;
+}
+
+.mb-70 {
+  margin-bottom: 70px;
+}
+
+.mt-70 {
+  margin-top: 70px;
+}
+
+.mb-100 {
+  margin-bottom: 100px;
+}
+
+/* Features Section */
+.small-header {
+  font-weight: var(--fwbold);
+  color: var(--navy);
+  font-size: 22px;
+}
+
+.text-button {
+  color: var(--blue);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.text-button:hover {
+  color: var(--navy);
+  text-decoration: underline;
+}
+
+.features .features-wrapper .col-lg-7 {
+  gap: 30px;
+}
+
+.features .features-wrapper .col-lg-5 {
+  gap: 30px;
+}
+
+.features .features-wrapper .big-feature-card {
+  padding: 30px 30px 60px;
+  border-radius: 16px;
+  background-color: var(--white);
+  gap: 18px;
+}
+
+.features .features-wrapper .big-feature-card:hover,
+.features .features-wrapper .small-feature-card:hover {
+  cursor: pointer;
+}
+
+.features .features-wrapper .small-feature-card {
+  padding: 30px 21px 30px 30px;
+  border-radius: 16px;
+  background-color: var(--white);
+  gap: 18px;
+}
+
+.features .features-wrapper .copy {
+  padding-top: 16px;
+}
+
+.features .features-wrapper .icon img {
+  height: 60px;
+  width: 60px;
+}
+
+/* Blur */
+.features-wrapper:hover .big-feature-card:not(:hover),
+.features-wrapper:hover .small-feature-card:not(:hover) {
+  filter: blur(2px);
+  transition: all 0.3s ease;
+}
+
+/* Booking Section */
+
+.form-control {
+  border-radius: 50px;
+  border: none;
+  background-color: var(--white);
+  padding: 12px 20px;
+  margin-bottom: 16px;
+  color: #8c9295;
+}
+
+.form-control::placeholder {
+  color: #8c9295;
+}
+
+textarea {
+  height: 188px;
+}
+
+textarea.form-control {
+  border-radius: 16px;
+}
