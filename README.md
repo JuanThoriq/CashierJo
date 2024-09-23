@@ -5,7 +5,6 @@ CashierJo is a responsive web project aimed at simulating a cashier system for a
 ## ⚙️ Tech Stack
 - HTML
 - CSS
-- JavaScript
 - Bootstrap v5.3
 
 ## ⚡ Features
