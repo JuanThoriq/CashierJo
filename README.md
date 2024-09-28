@@ -1,6 +1,6 @@
 # CashierJo - Self Learning Project
 ## 🤖 Introduction
-CashierJo is a responsive web project aimed at simulating a cashier system for a retail environment. This project was part of an online course, and it was further enhanced to incorporate responsive design, making it adaptable across multiple devices such as mobile, tablet, and desktop. The focus of this project was to build a dynamic and flexible interface while learning Bootstrap for responsive design.
+CashierJo is a responsive landing page web project aimed at simulating a cashier system for a retail environment. This project was part of an online course, and it was further enhanced to incorporate responsive design, making it adaptable across multiple devices such as mobile, tablet, and desktop. The focus of this project was to build a dynamic and flexible interface while learning Bootstrap for responsive design.
 
 ## ⚙️ Tech Stack
 - HTML
@@ -10,7 +10,6 @@ CashierJo is a responsive web project aimed at simulating a cashier system for a
 ## ⚡ Features
 - **Responsive Design**: Optimized for mobile, tablet, and desktop views.
 - **Grid & Flexbox Systems**: Utilizes Bootstrap's grid and flexbox systems for layout management, making the website adaptive and flexible across different screen sizes.
-- **E-commerce Simulation**: A simple cashier system for retail, designed with focus on functionality and ease of use.
 
 ## 🤗 Notes
 - This project was an independent learning experience from an online course.
