@@ -301,3 +301,7 @@ textarea {
 textarea.form-control {
   border-radius: 16px;
 }
+
+[data-aos] {
+  overflow: hidden;
+}
